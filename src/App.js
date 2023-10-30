@@ -15,6 +15,7 @@ import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 import About from './pages/About';
 import Blog from './pages/Blog';
+import EnergyCalculator from './pages/EnergyCalculator';
 import PostOne from './pages/PostOne';
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/get-demo" element={<DemoProduct />} /> 
             <Route path='/blog' element={<Blog />} />
+            <Route path='/energy-calculator' element={<EnergyCalculator />} />
             <Route path='/post-one' element={<PostOne />} />
           </Routes>
         </ScrollToTop>

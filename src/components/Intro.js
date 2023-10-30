@@ -14,7 +14,7 @@ const Intro = () => {
                     </div>
                     <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">
 
-                        <h3 className="text-3xl  text-blue-900 font-bold">A Product of Crown Group of Companies</h3>
+                        <h3 className="text-3xl  text-green-700 font-bold">A Product of Crown Group of Companies</h3>
                         <div>
                             <p className='my-3 text-xl text-gray-600 font-semibold'>
                                 Crown Group is a leading supplier of two and three-wheeler automotive spare parts in Pakistan. With the largest dealer network in the country,

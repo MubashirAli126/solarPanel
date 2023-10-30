@@ -1,9 +1,9 @@
 import React from 'react'
-// import CarouselSliders from '../components/CarouselSliders'
 import Footer from '../components/Footer'
 import NavBar from '../components/Navbar/NavBar'
 import AboutBanner from '../components/AboutBanner'
 import TechnicalDetail from '../components/TechnicalDetail'
+import SliderCrown from '../components/SliderCrown'
 
 export default function About() {
     return (
@@ -13,8 +13,7 @@ export default function About() {
             </div>
             <AboutBanner />
             <TechnicalDetail />
-        
-            {/* <CarouselSliders images={images} /> */}
+            <SliderCrown />
             <Footer />
         </>
     )

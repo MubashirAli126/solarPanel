@@ -6,9 +6,9 @@ import BlogPost from '../components/BlogPost'
 function Blog() {
   return (
     <>
-    <NavBar />
-    <BlogPost />
-    <Footer />
+      <NavBar />
+      <BlogPost />
+      <Footer />
     </>
   )
 }

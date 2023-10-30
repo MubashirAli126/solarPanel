@@ -1,10 +1,7 @@
 import React from 'react'
 import NavBar from '../components/Navbar/NavBar'
 import Footer from '../components/Footer'
-import img from '../images/image1.png';
 import image2 from '../images/image2.png';
-import img3 from '../images/image3.png';
-import { Link } from 'react-router-dom';
 
 function PostOne() {
     return (
@@ -24,9 +21,16 @@ function PostOne() {
                             <img alt="card img" className="rounded-t float-right" src={img} />
                         </div> */}
                                 <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full px-8" data-aos="zoom-in" data-aos-delay="500">
-
-                                    <h3 className="text-3xl text-blue-900 font-bold text-center">A Product of Crown Group of Companies</h3>
+                                    <h3 className="text-3xl text-blue-900 font-bold text-center">The Importance of Solar Panels in Pakistan</h3>
                                     <div>
+                                        <div className="mt-8 bg-gray-100">
+                                            <section data-aos="fade-up">
+
+                                                <div className="p-8" data-aos="fade-in" data-aos-delay="600">
+                                                        <p className='my-3 text-xl text-gray-600 font-semibold'>"Solar panels are a viable solution to Pakistan’s energy crisis. Solar panels are a renewable source of energy that can be used to generate electricity. They are also a clean source of energy that does not produce pollution."</p>
+                                                </div>
+                                            </section>
+                                        </div>s
                                         <p className='my-3 text-xl text-gray-600 font-semibold'>
                                             Crown Group is a leading supplier of two and three-wheeler automotive spare parts in Pakistan. With the largest dealer network in the country,
                                             the company has established a strong reputation for quality and reliability in the automotive industry. Crown Group’s extensive range of products
